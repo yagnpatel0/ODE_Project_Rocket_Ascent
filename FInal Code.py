@@ -6,13 +6,13 @@ class RocketConfig:
     def __init__(self):
        
         self.wet_mass = 29900.0   
-        self.dry_mass = 6500.0    #mass of rocket without fuel
+        self.dry_mass = 6500.0    
         
        
         self.thrust = 420000.0 
         
-        self.burn_time = 143.0    #time the rocket burns fuel for
-        self.diameter = 1.78      #diameter of area of contact
+        self.burn_time = 143.0    
+        self.diameter = 1.78     
         self.area = np.pi * (self.diameter / 2)**2 
         self.drag_coeff = 0.75    
         
